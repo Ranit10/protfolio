@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+	
+}
+.nav-links a:hover {
+	background-color:#333;
+}
+
+
+.section {
+    padding: 60px;
+	color:#FFFFFF;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+	COLOR:#000000;
+}
+.image-container {
+    display: flex; 
+    align-items: center; 
+}
+
+
+.right-aligned-image {
+	fixed:right;
+    width: 250px; 
+    height: 200px; 
+    margin-left: 20px; 
+	border-radius:25px;
+}
+
+.about-container {
+    background-color: #FFCC99;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px; 
+	color:#FFFFFF;
+	background-color: #FFCC99;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+    width: 300px; 
+    height: 200px; 
+    background-color: #66B2FF; 
+    margin: 10px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;  
+}
+.skill-box {
+    text-align: center;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(25% - 20px); 
+	background-color:#3399FF;
+}
+.skill-box img {
+    max-width: 40px; 
+    height: auto;
+}
+.skill-box p {
+    margin-top: 5px; 
+    font-weight: bold;
+}
+.social-media-box {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+	background-color: #000000;
+    color: #fff;
+    padding: 20px; 
+}
+.social-media-box a {
+    text-decoration: none; 
+    color: #333; 
+}
+.social-media-box a:hover {
+    color: #1877F2;
+	background-color:#333;
+}
+.social-media-box img {
+    width: 30px; 
+    height: 30px; 
+	
+}
+ 
